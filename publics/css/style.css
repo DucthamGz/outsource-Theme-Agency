@@ -265,6 +265,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .tab-one .desc-content .advant li{
@@ -272,7 +273,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 50%;
 }
 
 .tab-one .desc-content .advant li svg{
@@ -302,6 +302,13 @@
         margin-right: auto;
         margin-bottom: 60px;
     }
+}
+
+@media (max-width: 767px) {
+    .tab-one .content-tab-one h1.title-tab{
+        font-size: 2em;
+    }
+
 }
 
 /* MAIN END */
