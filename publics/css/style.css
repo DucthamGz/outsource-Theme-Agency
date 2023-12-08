@@ -220,6 +220,10 @@
 
 /* MAIN START */
 
+.main{
+    font-size: 19px;
+}
+
 .tab-one{
     background-image: url("../images/background-tab-one.webp");
     background-size: cover;
@@ -227,7 +231,6 @@
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-color: #f4f9ff;
-    font-family: sans-serif;
     font-size: 19px;
 }
 
@@ -257,6 +260,7 @@
 
 .tab-one .cut-fill svg{
     fill: white;
+    margin-bottom: -2px;
 }
 
 .tab-one .desc-content .advant{
@@ -308,7 +312,30 @@
     .tab-one .content-tab-one h1.title-tab{
         font-size: 2em;
     }
-
 }
+
+/* TAB TWO START */
+
+
+.tab-two .content-tab-two h2.title-tab-two{
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1em;
+    font-weight: 900;
+    color: #1b004f;
+    --global-heading-weight: 900;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.tab-two .content-tab-two .content-top{
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 10px 10px 10px;
+    max-width: 580px;
+}
+
+/* TAB TWO END */
+
 
 /* MAIN END */
