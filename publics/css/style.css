@@ -298,7 +298,7 @@
 
 .desc-content .button-start{
     margin-top: 40px;
-    padding: 20px 40px;
+    padding: 15px 40px;
     margin-left: 0;
 }
 
@@ -420,15 +420,15 @@
     background-color: #f4f9ff;
 }
 
-.tab-three .draw{
+ .draw{
     transform: rotateX(180deg) rotateY(180deg);
 }
 
-.tab-three .draw svg {
+ .draw svg {
     width: 121%;
 }
 
-.tab-three .draw * {
+ .draw * {
     fill: white;
 }
 
@@ -465,7 +465,7 @@
         width: 70%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center !important;
         margin: auto;
     }
     
@@ -491,8 +491,125 @@
 .draw-bottom svg{
     fill: white;
     transform: rotateY(180deg);
+    margin-bottom: -2px;
 }
 /* TAB THRER END */
+
+/* TAB 4 START */
+.ss-four{
+    background-color: white;
+    padding: 100px 0px  80px 0px ;
+}
+
+.ss-four .image-content{
+    display: flex;
+    justify-content: flex-end;
+}
+/* TAB 4 END */
+
+/* TAB FIVE START */
+
+.tab-five{
+    background-image: url("../images/background-tab-one.webp");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: #f4f9ff;
+    font-size: 19px;
+}
+
+.tab-five .content-tab-five{
+    padding: 80px 0;
+}
+
+svg{
+    height: 80px;
+    width: 100%;
+}
+
+.tab-five .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tab-five .title-tab{
+    font-weight: 900;
+    color: #1b004f;
+    font-size: 28px;
+    font-family: sans-serif;
+    margin: 1.5em 0 0.5em;
+}
+
+.tab-five .image-content{
+    position: relative;
+}
+
+.tab-five .image-content .mini-image{
+    position: relative;
+}
+
+.tab-five .image-content .btn-play{
+    position: absolute;
+    border-radius: 150px;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-five .image-content .btn-play a{
+    display: block;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 150px;
+}
+
+.tab-five .image-content .btn-play a svg{
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+}
+
+@media (max-width: 1025px) {
+    .tab-five{
+        text-align: center;
+    }
+
+    
+    .tab-five .image-content{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tab-five .desc-content{
+        width: 100%;
+    }
+
+    .desc-content .button-start{
+        margin: 40px auto 0 auto; 
+    }
+
+}
+
+@media (max-width: 767px) {
+   
+}
+
+
+/* TAB FIVE END */
 
 
 
