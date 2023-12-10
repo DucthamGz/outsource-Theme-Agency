@@ -604,12 +604,133 @@ svg{
 
 }
 
-@media (max-width: 767px) {
-   
+/* TAB FIVE END */
+
+/* TAB SIX START */
+.tab-six .title-tab{
+    font-weight: 900;
+    color: #1b004f;
+    font-size: 28px;
+    font-family: sans-serif;
+    margin: 1.5em 0 0.5em;
+    text-align: center;
+    padding-top: 100px;
+    margin:0 auto 40px auto;
 }
 
+.tab-six .main-tab p.desc{
+    text-align: center;
+    margin: auto;
+}
 
-/* TAB FIVE END */
+.tab-six .main-tab{
+    background-image: url("../images/map.png");
+    background-size: auto;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+}
+
+.tab-six .list-review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 110px;
+    flex-wrap: wrap;
+}
+
+.tab-six .list-review .item-review{
+    width: 30%;
+    position: relative;
+    border:  1px solid #eeeeee ;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 25px;
+}
+
+.tab-six .item-review .icon-location{
+    width: 40px;
+    height: 40px;
+    background-color: #0064ff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+.tab-six .item-review .icon-location svg {
+    height: 1em;
+    width: 1em;
+    fill: white;
+}
+
+.tab-six .item-review .content-review{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.tab-six .item-review .content-review .avatar{
+    max-width: 75px;
+    border-radius: 100px;
+    padding:10px;
+}
+
+.tab-six .item-review .content-review .avatar img{
+    border-radius: 100px;
+}
+
+.tab-six .review{
+    padding: 10px;
+}
+
+.tab-six .review h6{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #4A5568;
+    margin: 0;
+}
+
+.tab-six .review .star svg{
+    font-size: 15px;
+    fill: #f0ad4e;
+    width: 15px;
+    height: 15px;
+    line-height: normal;
+}
+
+.tab-six .review .content-pre p{
+    margin: 0;
+}
+
+.tab-six .item-review.second{
+    margin-top: 200px;
+}
+
+.tab-six .item-review.third{
+    margin-top: 85px;
+}
+
+@media (max-width: 1025px) {
+    .tab-six .list-review .item-review{
+        width: 100%;
+        margin: 10px auto;
+    }
+        
+    .tab-six .item-review.second{
+        margin-top: 10px;
+    }
+
+    .tab-six .item-review.third{
+        margin-top: 10px;
+    }
+}
+/* TAB SIX END */
 
 
 
