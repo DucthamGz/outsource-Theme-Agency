@@ -4,3 +4,4 @@ const activeMenu = (element) => {
     $(".btn_menu_mobile").toggleClass("active");
     $(".menu_move").toggleClass("active");
 }
+
