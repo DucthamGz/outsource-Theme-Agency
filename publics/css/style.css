@@ -1240,3 +1240,313 @@ footer .top-footer .item-top.second{
     }
 
 }
+
+/* DETAIL BLOG START */
+
+.detail-page{
+    background-color: #f4f9ff;
+}
+
+.detail-page .header{
+    position: unset;
+}
+
+.detail-page .desc-blog{
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.detail-page .docs-blog{
+    margin: -60px auto 60px auto;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    padding: 35px 25px;
+    border-radius: 7px;
+}
+
+.detail-page .docs-blog .nav-link{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
+
+.detail-page .docs-blog .nav-link a{
+    text-decoration: none;
+    color: #0064ff;
+    font-size: 70%;
+    font-weight: 900;
+    font-family: "Jost Bold";
+}
+
+.detail-page .docs-blog .nav-link .line{
+    background-color: gray;
+    width: 1px;
+    margin: 0px 7px;
+}
+
+.detail-page .docs-blog h2.title {
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #1b004f;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.detail-page .docs-blog .date{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.detail-page .docs-blog .date p{
+    margin: 0;
+    font-size: 80%;
+}
+
+.detail-page .docs-blog .date .dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    margin: 0px 10px;
+    background-color: gray;
+}
+
+.detail-page .docs-blog .date a{
+    text-decoration: none;
+    color: black;
+}
+
+.detail-page .content-docs-blog p{
+    margin-bottom: 7px;
+    text-align: left;
+}
+
+.detail-page .content-docs-blog img{
+    margin: 25px auto;
+}
+
+.detail-page .pre-page{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.detail-page .pre-page a{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: bold;
+    letter-spacing: .05em;
+    text-decoration: none;
+    color: inherit;
+    font-size: 90%;
+}
+
+.detail-page .pre-page a:hover{
+    color: #0064ff;
+}
+
+.detail-page .pre-page svg{
+    width: 20px;
+    height: 15px;
+}
+
+.detail-page .pre-page .small{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.detail-page .pre-page .item-pre{
+    width: 50%;
+}
+
+.detail-page .pre-page .left{
+    padding-right: 25px;
+    border-right: 1px solid gainsboro;
+}
+
+.detail-page .pre-page .right{
+    padding-left: 25px;
+}
+
+.detail-page .pre-page .right a{
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.detail-page .pre-page .link{
+    font-weight: 500;
+}
+
+.detail-page .similar-post{
+    margin: 0 auto;
+    background-color: #e7edfc;
+    padding: 65px 0;
+}
+
+.detail-page .similar-post .col-lg-10{
+    margin: 0 auto;
+}
+
+.detail-page .similar-post h2.title-tab{
+    margin-bottom: 43px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1em;
+    color: #1b004f;
+    font-family: sans-serif;
+} 
+
+.detail-page .item-post .title-tab a{
+    margin-bottom: 43px;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    line-height: 1em;
+    color: #1b004f;
+    font-family: sans-serif;
+}
+
+.detail-page .item-post .detail-post{
+    padding: 25px;
+    background-color: white;
+}
+
+.detail-page .item-post .title-tab a:hover{
+    color: #0064FF;
+}
+
+.detail-page .item-post .date{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.detail-page .item-post .date p{
+    margin: 0;
+    font-size: 80%;
+}
+
+.detail-page .item-post .date .dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    margin: 0px 10px;
+    background-color: gray;
+}
+
+.detail-page .item-post .date a{
+    text-decoration: none;
+    color: black;
+}
+
+.detail-page .swiper-wrapper{
+    padding-bottom: 40px;
+}
+
+/* COMMENT START */
+.detail-page .comment{
+    padding: 65px 0;
+}
+
+.detail-page .comment .col-lg-8{
+    margin: auto;
+}
+
+.detail-page .comment .title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    line-height: 1em;
+    color: #1b004f;
+    font-family: sans-serif;
+}
+
+.detail-page .comment i{
+    color: red;
+}
+
+.detail-page .form .item-form label{
+    font-size: 80%;
+    font-style: italic;
+}
+
+.detail-page .form .item-form{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.detail-page .form .item-form.check-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.detail-page .comment form{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.detail-page .comment form .w-100{
+    width: 100%;
+}
+
+.detail-page .comment form .w-32{
+    width: 32%;
+}
+
+.detail-page .comment input,
+.detail-page .comment select,
+.detail-page .comment optgroup,
+.detail-page .comment textarea {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 1.6;
+    color: #393841;
+    padding: 3px 7px;
+    outline: none;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.detail-page .comment textarea {
+    width: 100%;
+}
+
+.detail-page .comment button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.detail-page .comment button .button-start {
+    margin: 0;
+    font-weight: 700;
+    color: white;
+}
+
+@media (max-width: 1025px) {
+        
+    .detail-page .comment form .w-32{
+        width: 100%;
+    }
+}
