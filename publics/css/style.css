@@ -591,6 +591,9 @@ svg{
         text-align: center;
     }
 
+    .tab-five .content-tab-five{
+        padding-bottom: 15px;
+    }
     
     .tab-five .image-content{
         width: 100%;
@@ -727,6 +730,14 @@ svg{
         width: 100%;
         margin: 10px auto;
     }
+
+    .tab-six .title-tab{
+        padding-top: 45px;
+    }
+
+    .tab-six .list-review{
+        padding-bottom: 65px;
+    }
         
     .tab-six .item-review.second{
         margin-top: 10px;
@@ -789,6 +800,10 @@ svg{
     .tab-seven .image-content {
         display: flex;
         justify-content: center;
+    }
+
+    .tab-seven .container{
+        padding-top: 65px;
     }
 }
 /* TAB SEVEN END */
@@ -1073,6 +1088,10 @@ footer .top-footer .item-top.second{
     footer .top-footer .item-top{
         width: 100% !important;
         margin-bottom: 25px;
+    }
+
+    footer .top-footer{
+        padding-bottom: 0;
     }
 
     footer .list-icon{
