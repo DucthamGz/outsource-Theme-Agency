@@ -311,6 +311,10 @@ p{
         text-align: center;
     }
 
+    .content-tab-one{
+        padding-top: 165px;
+    }
+
     .content-tab-one h1.title-tab{
         font-size: 3.2em;
     }
