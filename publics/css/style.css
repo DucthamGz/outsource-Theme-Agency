@@ -455,6 +455,7 @@ p{
     color: #1b004f;
     font-weight: 900;
     font-size: 40px;
+    font-family: "Jost Bold";
 }
 
 .tab-three .content-tab-left .container .detail{
@@ -1068,6 +1069,18 @@ footer .top-footer .item-top.second{
     footer .top-footer .item-top{
         width: 100% !important;
         margin-bottom: 25px;
+    }
+
+    footer .list-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 20px 0 10px 0;
+    }
+
+    footer .list-icon svg{
+        margin: 0 10px;
     }
     
     footer .top-footer .item-top *{
