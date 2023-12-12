@@ -397,6 +397,11 @@ p{
         width: 90%;
         margin: 10px auto 10px auto;
     }
+
+    .tab-two .content-bototm{
+        padding-bottom: 25px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -472,6 +477,10 @@ p{
         align-items: center;
         justify-content: center !important;
         margin: auto;
+    }
+
+    .tab-three .content-tab-left .container .title-tab{
+        margin-top: 15px;
     }
     
     .tab-three .desc-content{
@@ -589,6 +598,10 @@ svg{
 @media (max-width: 1025px) {
     .tab-five{
         text-align: center;
+    }
+
+    .ss-four{
+        padding-top: 25px;
     }
 
     .tab-five .content-tab-five{
@@ -715,6 +728,7 @@ svg{
 
 .tab-six .review .content-pre p{
     margin: 0;
+    text-align: left;
 }
 
 .tab-six .item-review.second{
@@ -803,7 +817,7 @@ svg{
     }
 
     .tab-seven .container{
-        padding-top: 65px;
+        padding-top: 35px;
     }
 }
 /* TAB SEVEN END */
