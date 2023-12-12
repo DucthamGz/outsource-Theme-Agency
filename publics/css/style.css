@@ -971,6 +971,10 @@ svg{
     .tab-nine .desc-content{
         width: 70%;
     }
+
+    .tab-logo{
+        padding: 15px 0;
+    }
 }
 
 @media (max-width: 768px) {
